@@ -11,6 +11,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonRootName;
 import com.google.common.base.Objects;
 
+@JsonProperty("hypervisor")
 public class ExtHypervisor implements Hypervisor {
 
     private static final long serialVersionUID = 1L;
